@@ -6,6 +6,8 @@ import { Layout } from "./components/Layout";
 import { PageRenderer } from "./components/PageRenderer";
 import type { AppPage } from "./data/types";
 
+export { serializeServerData };
+
 export const render = createSSRRender({
 	bootstrap: (framework) => bootstrapApp(framework, { mockDelay: 0 }),
 	getErrorPage: (status: number, message: string) => ({
@@ -26,4 +28,3 @@ export const render = createSSRRender({
 	},
 });
 
-export { serializeServerData };

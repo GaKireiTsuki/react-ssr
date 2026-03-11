@@ -6,6 +6,7 @@ const { app } = await createServer({
 	defaultLocale: DEFAULT_COUNTRY,
 	ssr: {
 		ssrEntryPath: "/src/ssr.tsx",
+		ssrProductionModule: "./dist/server/ssr.js",
 	},
 });
 
