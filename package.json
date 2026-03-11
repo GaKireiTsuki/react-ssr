@@ -10,7 +10,7 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"@finesoft/front": "^0.1.11",
+		"@finesoft/front": "^0.1.13",
 		"@hono/node-server": "^1.19.11",
 		"hono": "^4.12.7",
 		"react": "^19.2.0",
