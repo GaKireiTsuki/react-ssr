@@ -10,7 +10,7 @@
 		"lint": "eslint ."
 	},
 	"dependencies": {
-		"@finesoft/front": "^0.1.25",
+		"@finesoft/front": "^0.1.26",
 		"@hono/node-server": "^1.19.11",
 		"hono": "^4.12.7",
 		"react": "^19.2.0",
