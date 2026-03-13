@@ -10,7 +10,7 @@ export default defineConfig({
 			locales: ["zh-CN", "en-US"],
 			defaultLocale: "zh-CN",
 			ssr: { entry: "src/ssr.tsx" },
-			adapter: "vercel", // 本地和独立 Docker 运行的默认适配器
+			adapter: "auto", // 本地和独立 Docker 运行的默认适配器
 		}),
 	],
 });
